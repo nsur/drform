@@ -298,6 +298,7 @@ footer .brand img {
 	}
 	.description .text {
 		font-size: 17px;
+		margin-top: 75px;
 	}
 	.block {
 		width: 100%;
@@ -318,5 +319,10 @@ footer .brand img {
 	.footer-social .img-wrapper:nth-child(odd) img {
 		float: right;
 		margin-right: 10px;
+	}
+}
+@media (max-width: 500px) {
+	.description .text {
+		margin-top: 0;
 	}
 }
