@@ -1,4 +1,4 @@
-# WP Simple Form
+# Landing Page with Form
 
 Imagine you work for DataRobot and a request has just come in to create a landing page that is needed for a middle size marketing campaign. We want to collect user data through a form which will later be used for event registration.
 
