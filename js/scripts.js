@@ -4,7 +4,8 @@ jQuery(document).ready(function() {
 	const valideteFields = [
 		'name', 'email', 'position', 'expertise', 'message'
 	];
-	const emailRegExp = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+	// regular expression from http://emailregex.com/
+	const emailRegExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 	const successMsg = 'Form was sent successfully!';
 	const emptyMsg = 'Please, fill next fields: ';
 	const emailMsg = 'Email, you have typed, is incorrect';
