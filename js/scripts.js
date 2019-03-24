@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
         } else {
             jQuery.post({
                 type: 'POST',
-                url: 'http://httpbin.org/post',
+                url: 'https://httpbin.org/post',
                 dataType: 'json',
                 data: {
                     form_data: form.serialize()
