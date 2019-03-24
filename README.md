@@ -13,5 +13,5 @@ The main task is to code a simple page with a form that will submit data to test
 
 Bonus
 
-The form should have a basic JS-based validation that does not allow empty fields and non-valid email format
-In addition to plain html version create a WordPress ‘page’ template for this page
+- The form should have a basic JS-based validation that does not allow empty fields and non-valid email format
+- In addition to plain html version create a WordPress ‘page’ template for this page
